@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>       
+            <div id="remote">
+                <ul>
+                    <li><a href="#conts1">1</a></li> 
+                    <li><a href="#conts2">2</a></li> 
+                    <li><a href="#conts3">3</a></li> 
+                    <li><a href="#conts4">4</a></li> 
+                    <li><a href="#conts5">5</a></li> 
+                    <li><a href="#conts6">6</a></li> 
+                    <li><a href="#conts7">7</a></li> 
+                    <li><a href="#conts8">8</a></li> 
+                    <li><a href="#conts9">9</a></li> 
+                    <li><a href="#conts10">10</a></li> 
+                </ul>
+            </div>
+        
+        </header>
+
+        <main>
+            <div id="conts1">
+                <div class="c1_img">
+                    <ul>
+                        <li>
+                            <img src="img/e_pluse.png" alt="">   
+                        </li>
+
+                        <li class="c1_text">
+                            <span>' 이지연 '</span>
+                            <span>을<br>
+                            정독하세요-</span>
+
+                        </li>
+                    </ul>                                     
+                </div>
+
+                <div class="c1_guide">
+                    <span>★★ READING GUIDE</span>
+                    <p>좋은 인재란 자고로 하나를 가르치면 세개를 알고, 개떡같이 말해도 찰떡같이 알아듣는 법!<br>
+                        그런 인재를 찾고있다면 망설이지 말고 여기를 주목하세요!</p>                   
+                </div>
+                
+            </div>
+
+            <!-- conts2-3 소개 page -->
+            <div id="conts2">
+                <img src="img/conts2.png" alt="">              
+            </div>
+
+            <div id="conts3">
+                <img src="img/conts3.png" alt="">
+            </div>
+
+            <!-- 포트폴리오1 page -->
+            <div id="conts4">                
+                <img src="img/conts4.png">alt="">  
+                <a href="D:\이지연\HTML\★★ portfolio\(ELLE) 모바일\최종\index.html" target="_blank">페이지 바로가기</a>             
+            </div>
+
+            <!-- 포트폴리오2 page -->
+            <div id="conts5">
+                <img src="img/conts5.png" alt="">               
+                <a href="D:\이지연\HTML\★★ portfolio\태화루(반응형)\태화루(반응형)\tahwa_index02.html"  target="_blank">페이지 바로가기</a>
+            </div>
+
+            <!-- 포트폴리오3 page -->
+            <div id="conts6">
+                <img src="img/conts6.png" alt="">
+                <a href="D:\이지연\HTML\★★ portfolio\(palm_house) 적응형\palm_test.html" target="_blank">페이지 바로가기</a>  
+            </div>
+
+            <!-- 포트폴리오4 page -->
+            <div id="conts7">
+                <img src="img/conts7.png" alt="">
+            </div>
+
+            <!-- 포트폴리오5 page -->
+            <div id="conts8">
+                <img src="img/conts8.png" alt="">
+            </div>
+
+            <!-- 포트폴리오6 page -->
+            <div id="conts9">
+                <img src="img/conts9.png" alt="">
+            </div>
+
+            <!-- 포트폴리오7 page -->
+            <div id="conts10">
+                <img src="img/conts10.png" alt="">
+            </div>            
+        </main>
+
+        <footer>
+            <div class="footerIn">
+                <p>본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다.<br>
+                    일부 내용 및 이미지 등은 출처가 따로 있음을 밝힙니다. </p>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+<script>
+    $("#remote a").click(function(){
+        
+        var cg = $(this).css("display");
+
+        if(cg == "block"){
+            $("#remote a").css("background","#666666");
+            $(this).css("background","#d2581e");
+        }
+    });
+
+</script>
+</html>

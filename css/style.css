@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+#wrap{
+    width:100%;
+    height:auto;
+    font-family: "-윤고딕110", sans-serif;
+    font-size:14px;
+    overflow: hidden;
+}
+
+#remote{
+    position: fixed;
+    top:50%; 
+    transform: translateY(-50%); 
+    right: 50px; 
+    height:auto; 
+    padding: 10px; 
+    z-index:999;
+}
+
+
+/* ▼▼▼페이저버튼 원모형으로 생성▼▼▼ */
+#remote a{
+    display: block;
+    width:16px;
+    height:16px;
+    border-radius: 50%; 
+    background: #666;  
+    text-indent: -9999px; 
+    margin: 20px 0; 
+}
+
+#remote a:hover{
+    background:#d2581e;
+}
+
+
+#conts1{
+    width:100%;
+    height:990px;
+    background:#339999;
+}
+
+.c1_img>ul{
+    display:flex;
+}
+
+.c1_img li:nth-child(1)>img{
+    width:676px;
+    height:894px;
+    margin-left:-10%;
+    margin-top:10%;
+}
+
+.c1_text{
+    margin-left:4%;
+    margin-top:14%;
+}
+
+.c1_img li:nth-child(2)>span:nth-child(1){
+    font-family: "-윤고딕360", sans-serif;
+    font-size:4.714em;
+    color:#fff;
+}
+
+.c1_img li:nth-child(2)>span:nth-child(2){
+    font-family: "-윤고딕110", sans-serif;
+    font-size:4.714em;
+    color:#fff;
+    line-height:80px;
+}
+
+.c1_guide{
+    position: relative;
+    bottom:20%;
+    left:10%;
+    width:70%;
+    height:auto;    
+}
+
+.c1_guide>span{
+    display:block;
+    margin-bottom:2%;
+    color:#fff;
+    font-family: "-윤고딕130", sans-serif;
+    font-size:1.714em;
+}
+
+.c1_guide>p{
+    color:#fff;
+    font-family: "-윤고딕130", sans-serif;
+    font-size:1.714em;
+    line-height:32px;
+}
+
+
+#conts2{
+    width:100%;
+    height:990px;
+    background:#f7f7e2;
+    margin:0 auto;
+}
+
+
+#conts3{
+    width:100%;
+    height:990px;
+    background:#f7f7e2;
+    margin:0 auto;
+}
+
+/* 포트폴리오1 page  */
+#conts4{
+    position: relative;
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts4>img{
+    margin:0 auto;
+}
+
+
+/* 포트폴리오1 바로가기 버튼  */
+#conts4 a{
+    position: absolute;
+    font-family: "-윤고딕150",sans-serif;
+    top:400px;
+    right:620px;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    background:#006699;  
+    color:#fff; 
+}
+
+
+/* 포트폴리오2 page  */
+#conts5{
+    position: relative;
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts5>img{
+    margin:0 auto;
+}
+
+#conts5 a{
+    position: absolute;
+    font-family: "-윤고딕150",sans-serif;
+    top:400px;
+    right:620px;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    background:#336633;  
+    color:#fff; 
+}
+
+/* 포트폴리오3 page  */
+#conts6{
+    position: relative;
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts6>img{
+    margin:0 auto;
+}
+
+#conts6 a{
+    position: absolute;
+    font-family: "-윤고딕150",sans-serif;
+    top:400px;
+    right:620px;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    background:#669966;  
+    color:#fff; 
+}
+
+#conts7{
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts7>img{
+    margin:0 auto;
+}
+
+#conts8{
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts8>img{
+    margin:0 auto;
+}
+
+#conts9{
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts9>img{
+    margin:0 auto;
+}
+
+#conts10{
+    width:100%;
+    height:990px;
+    background:#e9eadc;
+}
+
+#conts10>img{
+    margin:0 auto;
+}
+
+footer{
+    width:100%;
+    height:120px;
+    background:#666;
+}
+
+.footerIn{
+    position: relative;
+    width:70%;
+    height:50px;
+    margin:0 auto;
+    top:50%;
+    transform: translateY(-50%);   
+}
+
+.footerIn>p{
+    font-family: "-윤고딕110", sans-serif;
+    color:#fff;
+    font-weight: 600;
+    text-align:center;
+    font-size:1.000em;
+    line-height:21px;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased; 
+    
+}
