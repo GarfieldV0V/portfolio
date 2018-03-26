@@ -138,6 +138,7 @@
     line-height:34px;
     background:#006699;  
     color:#fff; 
+    cursor: pointer;
 }
 
 
@@ -163,6 +164,7 @@
     line-height:34px;
     background:#336633;  
     color:#fff; 
+    cursor: pointer;
 }
 
 /* 포트폴리오3 page  */
@@ -187,6 +189,7 @@
     line-height:34px;
     background:#669966;  
     color:#fff; 
+    cursor: pointer;
 }
 
 #conts7{
@@ -248,49 +251,26 @@ footer{
  
 @media all and (min-width:768px){
     
-#conts4 a{    
+#conts4 a,
+#conts5 a,
+#conts6 a{    
     top:40%;
     right:25%;
-    }
-
-    
-#conts5 a{    
-    top:40%;
-    right:25%;
-}
-
-/* 포트폴리오3 page  */
-
-#conts6 a{
-    top:40%;
-    right:25%;
-    }
+    }    
 }
 
 @media all and (min-width:1200px){
 
 
-/* 포트폴리오1 바로가기 버튼  */
-
 #remote{
     display:block;
 }
 
-#conts4 a{    
-    top:40%;
-    right:33%;
-}
-
-#conts5 a{    
-    top:40%;
-    right:33%;
-}
-
-/* 포트폴리오3 page  */
-
-#conts6 a{
-    top:40%;
-    right:33%;
+#conts4 a,
+#conts5 a,
+#conts6 a
+    {   top:40%;
+        right:29%;
     }
 }
 
