@@ -186,6 +186,7 @@
 }
 
 #conts7{
+    position: relative;
     width:100%;
     height:990px;
     background:url("../img/conts7.png") no-repeat 50% 0;
@@ -193,6 +194,7 @@
 
 
 #conts8{
+    position: relative;
     width:100%;
     height:990px;
     background:url("../img/conts8.png") no-repeat 50% 0;
@@ -200,12 +202,14 @@
 
 
 #conts9{
+    position: relative;
     width:100%;
     height:990px;
     background:url("../img/conts9.png") no-repeat 50% 0;
 }
 
 #conts10{
+    position: relative;
     width:100%;
     height:990px;
     background:url("../img/conts10.png") no-repeat 50% 0;
