@@ -2,7 +2,7 @@
 
 #wrap{
     width:100%; 
-    min-width:1200px;
+    min-width:1300px;
     height:auto;
     font-family: "-윤고딕110", sans-serif;
     font-size:14px;
@@ -123,8 +123,8 @@
 #conts4 a{
     position: absolute;
     font-family: "-윤고딕150",sans-serif;
-    top:400px;
-    right:620px;
+    top:40%;
+    right:33%;
     display:block;
     font-size:1.143em;
     width:170px;
@@ -148,8 +148,8 @@
 #conts5 a{
     position: absolute;
     font-family: "-윤고딕150",sans-serif;
-    top:400px;
-    right:620px;
+    top:40%;
+    right:33%;
     display:block;
     font-size:1.143em;
     width:170px;
@@ -172,8 +172,8 @@
 #conts6 a{
     position: absolute;
     font-family: "-윤고딕150",sans-serif;
-    top:400px;
-    right:620px;
+    top:40%;
+    right:33%;
     display:block;
     font-size:1.143em;
     width:170px;
