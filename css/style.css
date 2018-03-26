@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+
+/* All Mobile Code */
+
 #wrap{
     width:100%; 
     min-width:1300px;
@@ -9,6 +12,7 @@
 }
 
 #remote{
+    display:none;
     position: fixed;
     top:50%; 
     transform: translateY(-50%); 
@@ -124,7 +128,7 @@
     position: absolute;
     font-family: "-윤고딕150",sans-serif;
     top:40%;
-    right:33%;
+    right:25%;
     display:block;
     font-size:1.143em;
     width:170px;
@@ -149,7 +153,7 @@
     position: absolute;
     font-family: "-윤고딕150",sans-serif;
     top:40%;
-    right:33%;
+    right:25%;
     display:block;
     font-size:1.143em;
     width:170px;
@@ -173,7 +177,7 @@
     position: absolute;
     font-family: "-윤고딕150",sans-serif;
     top:40%;
-    right:33%;
+    right:25%;
     display:block;
     font-size:1.143em;
     width:170px;
@@ -240,6 +244,65 @@ footer{
     line-height:21px;
     -webkit-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased; 
+}
  
+
+@media all and (min-width:1200px){
+
+/* 포트폴리오1 바로가기 버튼  */
+
+#remote{
+    display:block;
+}
+
+#conts4 a{
+    position: absolute;
+    font-family: "-윤고딕150",sans-serif;
+    top:40%;
+    right:33%;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    background:#006699;  
+    color:#fff; 
+}
+
+#conts5 a{
+    position: absolute;
+    font-family: "-윤고딕150",sans-serif;
+    top:40%;
+    right:33%;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    background:#336633;  
+    color:#fff; 
+}
+
+/* 포트폴리오3 page  */
+
+#conts6 a{
+    position: absolute;
+    font-family: "-윤고딕150",sans-serif;
+    top:40%;
+    right:33%;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    background:#669966;  
+    color:#fff; 
     }
+}
 
