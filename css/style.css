@@ -123,12 +123,21 @@
     background:url("../img/conts4.png") no-repeat 50% 0;
 }
 
-/* 포트폴리오1 바로가기 버튼  */
-#conts4 a{
+.a_div{
     position: absolute;
-    font-family: "-윤고딕150",sans-serif;
     top:40%;
     right:25%;
+    width:170px;
+    height:34px;
+}
+
+/* 포트폴리오1 바로가기 버튼  */
+#conts4 a,
+#conts5 a,
+#conts6 a{
+    font-family: "-윤고딕150",sans-serif;
+    top:-5%;
+    left:0;
     display:block;
     font-size:1.143em;
     width:170px;
@@ -136,9 +145,12 @@
     border-radius:10px;
     text-align:center;
     line-height:34px;
-    background:#006699;  
     color:#fff; 
     cursor: pointer;
+}
+
+#conts4 a{
+    background:#006699;  
 }
 
 
@@ -151,20 +163,7 @@
 }
 
 #conts5 a{
-    position: absolute;
-    font-family: "-윤고딕150",sans-serif;
-    top:40%;
-    right:25%;
-    display:block;
-    font-size:1.143em;
-    width:170px;
-    height:34px;
-    border-radius:10px;
-    text-align:center;
-    line-height:34px;
     background:#336633;  
-    color:#fff; 
-    cursor: pointer;
 }
 
 /* 포트폴리오3 page  */
@@ -176,21 +175,9 @@
 }
 
 #conts6 a{
-    position: absolute;
-    font-family: "-윤고딕150",sans-serif;
-    top:40%;
-    right:25%;
-    display:block;
-    font-size:1.143em;
-    width:170px;
-    height:34px;
-    border-radius:10px;
-    text-align:center;
-    line-height:34px;
     background:#669966;  
-    color:#fff; 
-    cursor: pointer;
 }
+
 
 #conts7{
     position: relative;
@@ -250,13 +237,15 @@ footer{
 }
  
 @media all and (min-width:768px){
-    
-#conts4 a,
-#conts5 a,
-#conts6 a{    
+
+.a_div{    
     top:40%;
     right:25%;
-    }    
+    width:170px;
+    height:34px;
+}
+    
+
 }
 
 @media all and (min-width:1200px){
@@ -266,11 +255,32 @@ footer{
     display:block;
 }
 
+
+.a_div{
+    position: absolute;
+    top:40%;
+    right:33%;
+    width:170px;
+    height:34px;
+}
+
+/* 포트폴리오1 바로가기 버튼  */
 #conts4 a,
 #conts5 a,
-#conts6 a
-    {   top:40%;
-        right:29%;
+#conts6 a{
+    font-family: "-윤고딕150",sans-serif;
+    top:-5%;
+    left:0;
+    display:block;
+    font-size:1.143em;
+    width:170px;
+    height:34px;
+    border-radius:10px;
+    text-align:center;
+    line-height:34px;
+    color:#fff; 
+    cursor: pointer;
     }
+
 }
 
