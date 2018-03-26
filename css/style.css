@@ -1,7 +1,9 @@
 @charset "utf-8";
 
+
 #wrap{
-    width:100%;
+    width:100%; 
+    min-width:1100px; 
     height:auto;
     font-family: "-윤고딕110", sans-serif;
     font-size:14px;
@@ -44,11 +46,12 @@
     display:flex;
 }
 
-.c1_img li:nth-child(1)>img{
-    width:100%;
-    height:auto;
-    margin-left:-10%;
+.c1_ig{
+    display:block;
+    width:676px;
+    height:894px;
     margin-top:10%; 
+    background:url("../img/e_pluse.png") no-repeat center / cover;
 }
 
 .c1_text{
@@ -96,31 +99,25 @@
 
 #conts2{
     width:100%;
-    height:auto;
-    background:#f7f7e2;
-    margin:0 auto;
+    height:990px;
+    background:url("../img/conts2.png") no-repeat 50% 0; 
 }
 
 
 #conts3{
     width:100%;
-    height:auto;
-    background:#f7f7e2;
-    margin:0 auto;
+    height:990px;
+    background:url("../img/conts3.png") no-repeat 50% 0; 
 }
+
 
 /* 포트폴리오1 page  */
 #conts4{
     position: relative;
     width:100%;
-    height:auto;
-    background:#e9eadc;
+    height:990px;
+    background:url("../img/conts4.png") no-repeat 50% 0;
 }
-
-#conts4>img{
-    margin:0 auto;
-}
-
 
 /* 포트폴리오1 바로가기 버튼  */
 #conts4 a{
@@ -144,12 +141,8 @@
 #conts5{
     position: relative;
     width:100%;
-    height:auto;;
-    background:#e9eadc;
-}
-
-#conts5>img{
-    margin:0 auto;
+    height:990px;
+    background:url("../img/conts5.png") no-repeat 50% 0;
 }
 
 #conts5 a{
@@ -172,12 +165,8 @@
 #conts6{
     position: relative;
     width:100%;
-    height:auto;;
-    background:#e9eadc;
-}
-
-#conts6>img{
-    margin:0 auto;
+    height:990px;
+    background:url("../img/conts6.png") no-repeat 50% 0;
 }
 
 #conts6 a{
@@ -198,43 +187,30 @@
 
 #conts7{
     width:100%;
-    height:auto;;
-    background:#e9eadc;
+    height:990px;
+    background:url("../img/conts7.png") no-repeat 50% 0;
 }
 
-#conts7>img{
-    margin:0 auto;
-}
 
 #conts8{
     width:100%;
-    height:auto;
-    background:#e9eadc;
+    height:990px;
+    background:url("../img/conts8.png") no-repeat 50% 0;
 }
 
-#conts8>img{
-    margin:0 auto;
-}
 
 #conts9{
     width:100%;
-    height:auto;
-    background:#e9eadc;
-}
-
-#conts9>img{
-    margin:0 auto;
+    height:990px;
+    background:url("../img/conts9.png") no-repeat 50% 0;
 }
 
 #conts10{
     width:100%;
-    height:auto;
-    background:#e9eadc;
+    height:990px;
+    background:url("../img/conts10.png") no-repeat 50% 0;
 }
 
-#conts10>img{
-    margin:0 auto;
-}
 
 footer{
     width:100%;
